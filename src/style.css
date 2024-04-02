@@ -1,0 +1,114 @@
+.login-card{
+  display: block;
+  max-width: 400px;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  margin: auto;
+}
+.login-btn {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: inline-block;
+  width: auto;
+}
+
+.login-btn:disabled {
+  cursor: default;
+}
+
+.select {
+  background-color: transparent;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  padding:0.8rem;
+  margin: 0;
+  border: none !important;
+  outline: none;
+  border-radius: 6px;
+}
+
+.login-btn:focus {
+  border: none;
+}
+
+.login-btn:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.loading-card{
+  margin-top: 1rem;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-card{
+  display: block;
+  max-width: 700px;
+  padding:  1rem 2rem;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  margin: auto;
+}
+
+.order-card-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-table-container{
+  margin-top: 1rem;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.price-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.price-table td, .price-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.price-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.price-table tr:hover {background-color: #ddd;}
+
+.price-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #405cf5;
+  color: white;
+  text-transform: capitalize !important;
+}
